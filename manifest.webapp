@@ -1,0 +1,20 @@
+{
+    "name": "Menu Responsivo",
+    "description": "Usar menu responsivo es lo mejor",
+    "icons": {
+         "16": "/img/logo16.png",
+        "32": "/img/logo32.png",
+        "48": "/img/logo48.png",
+        "64": "/img/logo64.png",
+        "128": "/img/logo128.png" 
+    },
+    "developer": {
+    	"name": "Gerso OV."
+    },
+    "launch_path": "/index.html",
+    "default_locale": "es"
+}
+
+
+
+    

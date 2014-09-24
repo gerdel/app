@@ -1,0 +1,183 @@
+@import 'nib'
+@import 'nib/gradients'
+@import 'nib/vendor'
+vendor-prefixes = o ms webkit moz android
+body
+	background gray
+
+header 
+	background-color #390f7b
+	width 100%
+	box-sizing border-box
+	padding 2em 0
+div img
+	position relative
+	max-height 45px
+	min-width 45px
+	float right
+	top -1.5em
+	left -2em
+	prefijos box-shadow 2px 2px 10px orange
+.menu
+	display none
+	color #fafcff
+	outline none 
+nav
+	position relative
+	display block
+	margin -1.5em 0 0 0
+a
+	text-decoration none	
+li
+	position relative
+	float left
+	list-style none
+	padding 1em
+	color #fafcff
+	cursor pointer
+	top -1.5em
+	right 2em
+
+li:hover
+	background-color #5517b7
+	-moz-transition all 1s linear
+
+article
+	padding 1em	
+
+
+// Pagina para Moviles
+@media screen and (max-width:310px)
+	header 
+		position relative
+		width 100%
+		height 1em
+	div img 
+		top -3.9em
+		float none
+		left 1.2em
+	nav
+		position relative
+		top -6.5em
+		width 91%
+		float none
+		margin-left 1em
+		left -1.5em	
+
+	ul
+		display none
+		float none
+	li
+		float none
+		background-color #390f7b
+		border-bottom: 1px solid #742de5
+		transition 1s all 
+		top -0.5em
+		text-align center
+	.menu 
+		position relative
+		display block
+		padding 1.2em
+		top -2em
+		outline none
+		border:transparent
+	span
+		float right 	
+		cursor pointer	
+	
+	section article
+		position relative
+		padding 1em
+		z-index -1
+
+
+@media screen and (min-width:311px) and  (max-width 480px)
+	header 
+		position relative
+		width 100%
+		height 1em
+
+	div img 
+		top -3.9em
+		float none
+		left 1.2em
+	nav
+		position relative
+		top -6.5em
+		width 90%
+		float none
+		margin-left 1em
+		left -1.5em	
+	ul
+		display none
+	a
+		position relative
+		left 0	
+	li
+		float none
+		background-color #390f7b
+		border-bottom: 1px solid #742de5
+		transition 1s all 
+		top -0.5em
+		text-align center
+	.menu 
+		position relative
+		display block
+		padding 1.2em
+		top -2em
+		outline none
+		border:transparent
+	span
+		float right 	
+		cursor pointer	
+
+	section article
+		position relative
+		padding 1em
+		z-index -1
+
+@media screen and (min-width:481px) and  (max-width 1000px)
+	header 
+		position relative
+		width 100%
+		height 1em
+
+	div img 
+		top -3.9em
+		float none
+		left 1.2em
+		transition 1s all 
+	nav
+		position relative
+		top -6.5em
+		width 90%
+		float none
+		margin-left 1em
+		left -1.5em	
+	ul
+		display none
+	a
+		position relative
+		left 0	
+	li
+		float none
+		background-color #390f7b
+		border-bottom: 1px solid #742de5
+		transition 1s all 
+		top -0.5em
+		text-align center
+	.menu 
+		position relative
+		display block
+		padding 1.2em
+		top -2em
+		outline none
+		border:transparent
+	span
+		float right 	
+		cursor pointer	
+
+	section article
+		position relative
+		padding 1em
+		z-index -1		

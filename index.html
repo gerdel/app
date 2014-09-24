@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Canvas</title>
+		<link rel="stylesheet" href="estilos.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="icon" href="logo16.png" type="image/png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="jquery.js"></script>
+		<script type="text/javascript" src="calculator.js"></script>
+	</head>
+	<body>
+		<header>
+			
+			<div class="menu">
+				<span class="icon-menu" id="boton"></span>
+			</div>
+			<div>
+				<img src="logo2.png" alt="">
+			</div>	
+			<nav>
+				<ul id="resultado">
+					<a href="#"><li class="icon-home"> Inicio</li></a>
+					<a href="#"><li class="icon-images"> Galeria</li></a>
+					<a href="http://www.youtube.com"><li class="icon-film"> Videos</li></a>
+					<a href="#"><li class="icon-users"> Coctactos</li></a>
+					<a href="#"><li class="icon-twitter"> Twitter</li></a>
+					<a href="#"><li class="icon-html5"> html5</li></a>
+					
+				</ul>
+			</nav>	
+		</header>
+		<section>
+			<article>
+				The .animate() method allows us to create animation effects on any numeric CSS property. The only required parameter is a plain object of CSS properties. This object is similar to the one that can be sent to the .css() method, except that the range of properties is more restrictive.
+				Animation Properties and Values
+
+				All animated properties should be animated to a single numeric value, except as noted below; most properties that are non-numeric cannot be animated using basic jQuery functionality (For example, width, height, or left can be animated but background-color cannot be, unless the jQuery.Color() plugin is used). Property values are treated as a number of pixels unless otherwise specified. The units em and % can be specified where applicable.
+
+				In addition to style properties, some non-style properties such as scrollTop and scrollLeft, as well as custom properties, can be animated.
+
+				Shorthand CSS properties (e.g. font, background, border) are not fully supported. For example, if you want to animate the rendered border width, at least a border style and border width other than "auto" must be set in advance. Or, if you want to animate font size, you would use fontSize or the CSS equivalent 'font-size' rather than simply 'font'.
+
+				In addition to numeric values, each property can take the strings 'show', 'hide', and 'toggle'. These shortcuts allow for custom hiding and showing animations that take into account the display type of the element. In order to use jQuery's built-in toggle state tracking, the 'toggle' keyword must be consistently given as the value of the property being animated.
+
+				Animated properties can also be relative. If a value is supplied with a leading += or -= sequence of characters, then the target value is computed by adding or subtracting the given number from the current value of the property.
+			</article>
+		</section>
+		<script type="text/javascript">
+			iniciar();
+		</script>
+	</body>
+</html>
